@@ -52,11 +52,11 @@ MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 # Custom Chats
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', 0))
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL', 0))
-FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 't.me/Restricttest')
+FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK','https://t.me/hollywood_movies_action_web')
 
 # Log Channels
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001798157840))
-RQST_LOG_CHANNEL = int(environ.get('RQST_LOG_CHANNEL', -1001798157840))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL',' -1001798157840'))
+RQST_LOG_CHANNEL = int(environ.get('RQST_LOG_CHANNEL', '-1001798157840'))
 
 # Bot Options
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
